@@ -1,4 +1,4 @@
-# NVIDIA HPC Benchmarks for an AI Cluster
+# NVIDIA HPC Benchmarks for an AI Cluster with 64 H200 GPUs (8 nodes x 8 GPUs)
 ## Benchmarks Included
 
 | # | Benchmark | What It Measures                     | Run Time   |
