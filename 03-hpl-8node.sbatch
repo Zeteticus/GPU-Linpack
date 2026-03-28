@@ -21,9 +21,9 @@
 # P×Q = 8×8 = 64 MPI ranks (1 per GPU)
 # =============================================================================
 
-SIF=/p/data/work/dots-pa/containers/hpc-benchmarks-25.09.sif
+SIF=/home/ascensus/containers/hpc-benchmarks-25.09.sif
 
-RESULTS_DIR=/p/data/work/dots-pa/hpc-benchmarks/results/hpl
+RESULTS_DIR=/home/ascensus/hpc-benchmarks/results/hpl
 mkdir -p ${RESULTS_DIR}
 
 WORK_DIR=${RESULTS_DIR}/run_8node_${SLURM_JOB_ID}

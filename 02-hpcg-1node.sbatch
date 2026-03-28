@@ -15,9 +15,9 @@
 # HPCG is the TOP500 companion benchmark (HPCG500 list).
 # =============================================================================
 
-SIF=/p/data/work/dots-pa/containers/hpc-benchmarks-25.09.sif
+SIF=/home/ascensus/containers/hpc-benchmarks-25.09.sif
 
-RESULTS_DIR=/p/data/work/dots-pa/hpc-benchmarks/results/hpcg
+RESULTS_DIR=/home/ascensus/hpc-benchmarks/results/hpcg
 mkdir -p ${RESULTS_DIR}
 
 echo "=========================================="

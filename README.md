@@ -24,7 +24,7 @@ an Apptainer SIF for use under Slurm.
 #   https://catalog.ngc.nvidia.com/orgs/nvidia/containers/hpc-benchmarks
 
 # Set your destination (PowerScale shared storage recommended)
-export SIF_DIR=/home/username/work/containers
+export SIF_DIR=/home/ascensus/containers
 mkdir -p ${SIF_DIR}
 
 # Pull and convert — this downloads ~15-20 GB

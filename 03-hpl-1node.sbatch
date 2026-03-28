@@ -15,9 +15,9 @@
 # Saturates GPU compute + NVLink intra-node.
 # =============================================================================
 
-SIF=/p/data/work/dots-pa/containers/hpc-benchmarks-25.09.sif
+SIF=/home/ascensus/containers/hpc-benchmarks-25.09.sif
 
-RESULTS_DIR=/p/data/work/dots-pa/hpc-benchmarks/results/hpl
+RESULTS_DIR=/home/ascensus/hpc-benchmarks/results/hpl
 mkdir -p ${RESULTS_DIR}
 
 # --- Copy the .dat file to a writable location (HPL writes output files) ---
