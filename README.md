@@ -1,18 +1,4 @@
-# NVIDIA HPC Benchmarks for AI Cluster Cluster
-
-## Cluster Profile
-
-| Component         | Specification                                      |
-|-------------------|----------------------------------------------------|
-| Nodes             | 8 × Dell PowerEdge XE9680                          |
-| GPUs              | 64 × NVIDIA H200 SXM 141GB (8 per node)           |
-| CPUs              | 2 × Intel Xeon Scalable per node (2 NUMA domains)  |
-| Interconnect      | InfiniBand NDR (QM9700, 400 Gb/s per port)         |
-| Storage           | Dell PowerScale F710 (NFS)                          |
-| OS                | Rocky Linux (STIG-hardened)                          |
-| Scheduler         | Slurm (BCM 10.0)                                    |
-| Container Runtime | Apptainer                                            |
-
+# NVIDIA HPC Benchmarks for an AI Cluster
 ## Benchmarks Included
 
 | # | Benchmark | What It Measures                     | Run Time   |
